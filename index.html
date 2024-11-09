@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,35 @@
     <link rel="stylesheet" href="styles.css">
     <title>Centro Formación Profesional N° 61</title>
 </head>
+
 <body>
-    <header class="bg-info text-white text-center py-4">
-        <h1><img src="./img/Copia de Sin fondo C.bordes CFP61.png" alt="logo del centro de formacion profesional" width="60px" height="60px" id="logo1">
+    <div class="bg-info text-white text-center py-4">
+        <h1><img src="./img/Copia de Sin fondo C.bordes CFP61.png" alt="logo del centro de formacion profesional"
+                width="60px" height="60px" id="logo1">
             Centro Formación Profesional N° 61</h1>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Inicio</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./Inscripcion/inscripciones.html">Inscripciones</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#donde-estamos">¿Dónde estamos?</a></li>
                     <li class="nav-item"><a class="nav-link" href="#trayectos">Trayectos Formativos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal"
+                            data-target="#adminLoginModal">Login Administrador</a></li>
                 </ul>
             </div>
         </nav>
-    </header>
+    </div>
 
     <div class="container my-5">
         <section id="quienes-somos">
             <h2>¿Quiénes somos?</h2>
-            <p>El CENTRO FORMACIÓN PROFESIONAL N° 61 depende de la Dirección de Educación Técnico Profesional del Consejo General de Educación. Funciona en La Criolla desde 2014 y tiene un anexo en Colonia Ayuí.</p>
-            <p>Brindamos trayectos de formación profesional y capacitación laboral para una rápida inserción en el mercado socioproductivo local y regional.</p>
+            <p>El CENTRO FORMACIÓN PROFESIONAL N° 61 depende de la Dirección de Educación Técnico Profesional del
+                Consejo General de Educación. Funciona en La Criolla desde 2014 y tiene un anexo en Colonia Ayuí.</p>
+            <p>Brindamos trayectos de formación profesional y capacitación laboral para una rápida inserción en el
+                mercado socioproductivo local y regional.</p>
         </section>
 
         <section id="donde-estamos" class="my-5">
@@ -36,129 +44,195 @@
             <p>Rio Bermejo N°278, La Criolla, Dpto Concordia. Instalaciones del Club Juan B. Alberdi.</p>
         </section>
 
-        <section id="contacto" class="my-5">
-            <h2>Contacto</h2>
-             <p><img src="./img/whatsapp.png" height="20px" width="20px"  class="marge"> 345 412-3356</p>
-            <p>Emails:</p>
-            <ul>
-                <li>Administración: <a href="mailto:cfplacriolla@gmail.com">cfplacriolla@gmail.com</a></li>
-                <li>Rectoría: <a href="mailto:cfp61.lacriolla@gmail.com">cfp61.lacriolla@gmail.com</a></li>
-                <li>Institucional: <a href="mailto:cfp61.cd@entrerios.edu.ar">cfp61.cd@entrerios.edu.ar</a></li>
-            </ul>
-            <p>Nuestras redes:</p>
-            <ul>
-                <li><img src="img/Instagram.png" height="20px" width="20px"> <a href="https://instagram.com/cfplacriolla" class="marg">cfplacriolla</a></li>
-                <li>Página de Facebook: <a href="#">Link a Facebook</a></li>
-            </ul>
-        </section>
-
         <section id="trayectos" class="my-5">
             <h2>Trayectos Formativos</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div id="carouselSoldador" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="img/soldador1.jpg" class="d-block w-100" alt="Soldador Profesional 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/soldador2.jpg" class="d-block w-100" alt="Soldador Profesional 2">
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselSoldador" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Anterior</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselSoldador" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Siguiente</span>
-                                </a>
-                            </div>
-                            <h5 class="card-title">Ciclo Adolescente en Soldador Profesional</h5>
-                            <p class="card-text">Incluye la enseñanza de asignaturas básicas y formación profesional inicial.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <div id="carouselModista" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="img/modista2.jpg" class="d-block w-100" alt="Modista 1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/modista3.jpg" class="d-block w-100" alt="Modista 2">
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselModista" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Anterior</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselModista" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Siguiente</span>
-                                </a>
-                            </div>
-                            <h5 class="card-title">Confeccionista a Medida: Modista</h5>
-                            <p class="card-text">Capacitación para interpretar prototipos y realizar confecciones a medida.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Tapicería</h5>
-                            <p class="card-text">Realiza el patronaje, corte y confección del tapizado de muebles.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Mozo/a Camarero/a de Salón</h5>
-                            <p class="card-text">Capacitado para realizar el servicio de alimentos y bebidas.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            
-                            <h5 class="card-title">Reparación de Electrodomésticos</h5>
-                            <p class="card-text">Capacitación para presupuestar y ejecutar la reparación básica de electrodomésticos.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Operador de Informática para la Administración y Gestión</h5>
-                            <p class="card-text">Uso de herramientas informáticas para resolver problemas administrativos.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row" id="courses-container">
+                <!-- Los cursos se cargarán aquí -->
             </div>
             <p>En el Anexo Ayuí se realizan los trayectos formativos de Cocina y Cosmetología.</p>
         </section>
+
+        <section id="create-course" class="my-5" style="display: none;">
+            <h2>Crear/Actualizar Curso</h2>
+            <form id="create-course-form">
+                <div class="form-group">
+                    <label for="course-name">Nombre del Curso:</label>
+                    <input type="text" class="form-control" id="course-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="course-description">Descripción del Curso:</label>
+                    <textarea class="form-control" id="course-description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="course-image">Imagen del Curso:</label>
+                    <input type="file" class="form-control-file" id="course-image" accept="image/*">
+                </div>
+                <button type="submit" class="btn btn-success" id="submit-button">Crear Curso</button>
+            </form>
+        </section>
     </div>
-    <button id="back-to-top" class="btn btn-info" style="display: none; position: fixed; bottom: 30px; right: 30px; border-radius: 50%;">
+
+    <!-- Modal de Login de Administrador -->
+    <div class="modal fade" id="adminLoginModal" tabindex="-1" role="dialog" aria-labelledby="adminLoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adminLoginModalLabel">Login Administrador</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="admin-login-form">
+                        <div class="form-group">
+                            <label for="admin-username">Usuario:</label>
+                            <input type="text" class="form-control" id="admin-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="admin-password">Contraseña:</label>
+                            <input type="password" class="form-control" id="admin-password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <button id="back-to-top" class="btn btn-info"
+        style="display: none; position: fixed; bottom: 30px; right: 30px; border-radius: 50%;">
         ↑
     </button>
-    
-    <footer class="bg-info text-white text-center py-4">
+
+    <div class="bg-info text-white text-center py-4">
         <p>Equipo de Conducción:</p>
         <ul>
-            <li>Rector: Joaquín I. Villanueva</li>
+            <li>Rector: Joaquín I. Villanueva 
             <li>Secretario: Franco A. Alvarez</li>
             <li>Jefe de Taller: Juan Roude</li>
         </ul>
-    </footer>
-    <script src="script.js"></script>
+    </div>
+
+    <script>
+        let courses = JSON.parse(localStorage.getItem('courses')) || [];
+        let editingCourseId = null;
+        let isAdminLoggedIn = false; // Variable para controlar el estado de autenticación
+
+        document.getElementById('admin-login-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const username = document.getElementById('admin-username').value;
+            const password = document.getElementById('admin-password').value;
+
+            if (username === 'admin' && password === 'password') {
+                isAdminLoggedIn = true; // Cambiar el estado a autenticado
+                document.getElementById('create-course').style.display = 'block';
+                $('#adminLoginModal').modal('hide');
+                renderCourses();
+            } else {
+                alert('Credenciales incorrectas. Inténtalo de nuevo.');
+            }
+        });
+
+        document.getElementById('create-course-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const courseName = document.getElementById('course-name').value;
+            const courseDescription = document.getElementById('course-description').value;
+            const courseImage = document.getElementById('course-image').files[0];
+
+            if (editingCourseId) {
+                const courseIndex = courses.findIndex(course => course.id === editingCourseId);
+                courses[courseIndex].name = courseName;
+                courses[courseIndex].description = courseDescription;
+                if (courseImage) {
+                    courses[courseIndex].image = URL.createObjectURL(courseImage);
+                }
+                editingCourseId = null;
+                document.getElementById('submit-button').textContent = 'Crear Curso';
+            } else {
+                const courseId = courses.length + 1;
+                const course = { id: courseId, name: courseName, description: courseDescription, image: URL.createObjectURL(courseImage) };
+                courses.push(course);
+            }
+            localStorage.setItem('courses', JSON.stringify(courses));
+            renderCourses();
+            document.getElementById('create-course-form').reset();
+        });
+
+        function renderCourses() {
+            const courseContainer = document.getElementById('courses-container');
+            courseContainer.innerHTML = '';
+            courses.forEach(course => {
+                const courseElement = document.createElement('div');
+                courseElement.classList.add('col-md-4');
+                courseElement.innerHTML = `
+                    <div class="card mb-4">
+                        <img src="${course.image}" class="card-img-top" alt="${course.name}">
+                        <div class="card-body">
+                            <h5 class="card-title">${course.name}</h5>
+                            <p class="card-text">${course.description}</p>
+                            ${isAdminLoggedIn ? `
+                                <button class="btn btn-warning" onclick="editCourse(${course.id})">Editar</button>
+                                <button class="btn btn-danger" onclick="confirmDeleteCourse(${course.id})">Eliminar</button>
+                            ` : ''}
+                        </div>
+                    </div>
+                `;
+                courseContainer.appendChild(courseElement);
+            });
+        }
+
+        function confirmDeleteCourse(id) {
+            if (confirm('¿Estás seguro de que deseas eliminar este curso?')) {
+                deleteCourse(id);
+            }
+        }
+
+        function deleteCourse(id) {
+            courses = courses.filter(course => course.id !== id);
+            localStorage.setItem('courses', JSON.stringify(courses));
+            renderCourses();
+        }
+
+        function editCourse(id) {
+            const course = courses.find(course => course.id === id);
+            if (course) {
+                document.getElementById('course-name').value = course.name;
+                document.getElementById('course-description').value = course.description;
+                editingCourseId = id;
+                document.getElementById('submit-button').textContent = 'Actualizar Curso';
+            }
+        }
+
+        // Cargar cursos al iniciar la página
+        window.onload = function() {
+            renderCourses();
+        };
+    </script>
+
+    <script>
+        window.onscroll = function() {
+    const button = document.getElementById('back-to-top');
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        button.style.display = "flex"; 
+    } else {
+        button.style.display = "none";
+    }
+};
+
+document.getElementById('back-to-top').onclick = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+    });
+};
+
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link src="script.js">
 </body>
+
 </html>
