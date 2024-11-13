@@ -104,3 +104,14 @@ a:hover{
     text-decoration: none;
 
 }
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.card {
+    margin-bottom: 20px;
+}
